@@ -22,11 +22,12 @@ Compilacion y ejecucion
 
 - Paso 3 - Ejecutar (desde DOSBox)
 
-MOUNT C C:(ruta)
+  MOUNT C C:(ruta)
 
-C:
+  C:
 
-prog2.exe
+  prog2.exe
+
 
 Salida esperada
 
