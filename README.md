@@ -11,3 +11,41 @@ Prerrequisitos
 - Editor de texto plano (Notepad++, VS Code o similar)
 
 Compilacion y ejecucion
+
+- Paso 1: Ensamblar (desde CMD de windows)
+
+  nasm -f obj programa2.asm -o prog2.obj -l programa2.lst
+
+- Paso 2: Enlazar (desde CMD de Windows)
+
+  alink prog2.obj -o prog2.exe -entry main
+
+- Paso 3 - Ejecutar (desde DOSBox)
+
+MOUNT C C:(ruta)
+
+C:
+
+prog2.exe
+
+Salida esperada
+
+=== Macros y Control de Flujo ===
+
+[Linea A] Primera impresion
+
+[Linea A] Primera impresion
+
+[Linea A] Primera impresion
+
+[Linea B] Segunda impresion
+
+[Linea B] Segunda impresion
+
+El valor mayor es: 6
+
+El valor mayor es: 9
+
+Los valores son iguales.
+
+Fin del programa.
